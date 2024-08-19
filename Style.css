@@ -46,32 +46,36 @@
     margin-right: 20px;
     margin-top: 40px;
 }
-@media screen and (max-width:399px){
+@media screen and (max-width:480px){
     .navbar{
-        max-width: 100vw;
+        max-width: 480px;
         margin-left: 1rem;
     }
     body{
-        max-width: 100%;
+        max-width: 480px;
     }
     .section-con {
-        width: 100%;
+        max-width: 480px;
         height: 100vh;
         flex-direction: column;
         text-align: center;
     }
     nav{
-        width: 100%;
+        max-width: 480px;
     }
     .lt-content{
-        max-width: 100%;
-        margin-left: 20px;
+        width: 480px;
+        height: 100%;
+        margin-left: 10px;
         margin-right: 10px; 
     }
     .head-1{
         font-size: 3.5rem;
     }
-    .rt-side{
-        max-width: 100%;
+    .rt-side>*{
+        width: 480px;
     }
+    .desk-img{
+        width: 480px;   
+   }
 }
